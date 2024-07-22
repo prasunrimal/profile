@@ -7,6 +7,7 @@ body {
     font-family: 'Poppins', sans-serif; 
 } 
   
+  
 /* Header Navbar Styles */
 .navbar { 
     display: flex; 
@@ -256,22 +257,25 @@ body {
   
 /* utility classes */
 .greet-heading { 
-    font-size: 1.3rem; 
+    font: size 20px;  
     font-weight: lighter; 
     margin: 0; 
     letter-spacing: 1px; 
+    
 } 
   
 .my-heading { 
-    font-size: 2.5rem; 
+    font-size: 60px;
     margin: 0; 
+    
 } 
   
 .sub-heading { 
     margin: 0; 
-    font-size: 0.8rem; 
-    color: #ccc; 
+    font-size: 20px;
+    color: #8c8989; 
     font-weight: lighter; 
+   
 } 
   
 .links:hover { 
@@ -302,14 +306,14 @@ body {
 } 
   
 .common-btn:hover { 
-    background-color: #fff; 
+    background-color: #35A99C; 
     color: #35A99C; 
     border: 2px solid #35A99C; 
     outline: none; 
 } 
   
 .ghost-btn { 
-    background-color: #fff; 
+    background-color: #35A99C;  
     color: #35A99C; 
     border: 2px solid #35A99C; 
     outline: none; 
